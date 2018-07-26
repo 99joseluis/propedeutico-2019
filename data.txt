@@ -1,0 +1,6 @@
+Las apariciones de hola son :137
+Las apariciones de jose son :134
+Las apariciones de karla son :5
+Las apariciones de miguel son :0
+Las apariciones de victor son :1
+Las apariciones de raul son :129
