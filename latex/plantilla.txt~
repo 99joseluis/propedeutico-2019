@@ -1,0 +1,70 @@
+\documentclass{article}
+
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage[
+  top=3cm,
+  bottom=3cm,
+  left=2cm,
+  right=2cm,
+  heightrounded,
+]{geometry}
+
+\author{Nombre Del Autor}
+\title{Mi título}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+Plantilla de \LaTeX.
+
+% https://www.lipsum.com
+\section{Lorem ipsum}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lectus ligula,
+tristique ut erat eu, elementum ullamcorper elit. Nullam vel aliquam neque, at
+malesuada leo. Cras nec libero sed erat hendrerit dapibus. Vestibulum leo nunc,
+condimentum sed viverra sollicitudin, convallis in arcu. Nulla a metus a libero
+imperdiet rutrum. Proin fringilla purus quis sagittis tempus. Orci varius
+natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem
+ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique mauris nec dui
+pellentesque dapibus. Nulla facilisi. Etiam convallis venenatis mattis. Ut
+facilisis maximus nulla, sed volutpat leo dignissim vitae. Integer at quam eget
+nisl porttitor faucibus.
+
+Duis bibendum tortor ac nisl scelerisque, quis gravida magna dictum. Aliquam vel
+imperdiet leo, at hendrerit est. Donec porta feugiat metus nec fringilla. Nulla
+nec odio in libero gravida volutpat. Sed ut lacus tristique, lacinia dolor at,
+fringilla odio. Aliquam accumsan suscipit diam id imperdiet. Pellentesque vitae
+tempus arcu. Etiam a dapibus nibh, sit amet finibus ipsum. Nunc ac mollis
+nibh. Donec vel nibh ac lectus pellentesque viverra.
+
+Cras sollicitudin ac nulla at lobortis. Nullam finibus quam tortor, vel semper
+ligula semper et. Ut nec ultrices odio, eu facilisis turpis. In ut facilisis
+enim. Mauris sit amet ex vitae ante commodo volutpat at ut ipsum. Donec
+condimentum sed enim sit amet molestie. Mauris mauris neque, tincidunt eu rutrum
+finibus, commodo euismod augue. Donec non diam eu augue lobortis iaculis. Duis
+hendrerit, ligula ut pulvinar ullamcorper, ligula lacus viverra justo, non
+sagittis dui augue viverra augue. Praesent convallis placerat nisi in
+sodales. Donec a rhoncus leo. Mauris porta leo semper tellus tempus
+molestie. Aliquam vel eros cursus, elementum metus a, dictum felis. Nunc sed
+tortor convallis justo aliquam dapibus eget sollicitudin mi.
+
+Cras in enim risus. In venenatis feugiat lectus, ac malesuada arcu aliquet
+ac. Quisque vitae ante ipsum. Fusce vitae tortor lectus. Pellentesque commodo
+ligula vitae leo ultrices tempor. Proin id purus vitae risus rutrum dapibus ut
+ac enim. Duis porttitor, massa eu dignissim fermentum, turpis augue consectetur
+nulla, eu porta lorem augue ac lacus.
+
+Sed in aliquam magna. Cras nec leo augue. Nulla pellentesque fermentum
+massa. Nulla eget eros id nisi pretium vestibulum id nec lacus. Integer euismod
+dolor vitae pharetra fermentum. Nulla hendrerit massa et magna lobortis
+porttitor. Donec venenatis commodo erat ut dignissim. Quisque vestibulum eros
+mollis libero pulvinar tristique et in nisl. Quisque finibus feugiat purus,
+vehicula aliquam mi malesuada molestie.
+
+\end{document}
