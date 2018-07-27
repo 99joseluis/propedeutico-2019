@@ -3,7 +3,8 @@
 \usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[graphicx]
+\usepackage{graphicx}
+
 
 \usepackage[
   top=3cm,
@@ -20,22 +21,57 @@
 \begin{document}
 
 \maketitle
-\chapter{Jose Luis}
+\tableofcontents
+\addcontentsline{toc}{chapter}{indice}
+
+\listoffigures
+\addcontentsline{toc}{chapter}{indice de figuras}
+
+\listoftables
+\addcontentsline{toc}{chapter}{indice de tablas}
+
+\chapter{Introduction}
+
 \section{un poco sobre mi}
 Acabo de entrar a la carrera de ciencias de la computacion, provengo del cch sur y elegi la carrera porque me parecio mas completa que la ingenieria en sistemas 
 
 \subsection{hobbies}
 \begin{enumerate}
 \item hobbie Me gusta escuchar musica
-\item hobbie Jugar 
+\item hobbie Jugar mucho
 \item hobbie Me distrae el nadar 
 \end{enumerate}
 
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.5]{IMG/Los-osos.jpg}
-\caption{Escuchando musica}
+\begin{figure}[h]
+  \centering
+  \includegraphics[scale=0.5]{IMG/17.png}
+  \caption{Escuchando musica}
 \end{figure}
+
+\newpage
+algunas formulas importantes en mi vida son
+\begin{itemize}
+\item $c^{2} = a^{2} + b^{2}
+  
+\item $x=-b \pm \frac{\sqrt{b^{2}-4ac}}{2a}$
+\end{itemize}
+
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{c c c}
+    \hline
+    operando & operando & resultado\\hline  
+    $+$ & $+$ & $+$\\hline
+    $+$ & $-$ & $-$\\hline
+    $-$ & $+$ & $-$\\hline
+    $-$ & $-$ & $+$\\hline
+  \end{tabular}
+  \caption{leyes de los signos}
+  \label{tabla: leyes de signos}
+\end{table}
+
+
 
 
 
@@ -87,5 +123,8 @@ dolor vitae pharetra fermentum. Nulla hendrerit massa et magna lobortis
 porttitor. Donec venenatis commodo erat ut dignissim. Quisque vestibulum eros
 mollis libero pulvinar tristique et in nisl. Quisque finibus feugiat purus,
 vehicula aliquam mi malesuada molestie.
+
+\bibliographystyle{acm}
+\bibliography{bibliografia}
 
 \end{document}
